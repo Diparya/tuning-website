@@ -34,7 +34,7 @@ export default function AutoDetailerSection() {
             {/* Testimonial 1 */}
             <div className="bg-gray-800 p-6 rounded-lg">
               <p className="text-xl text-white mb-4">
-                "Sed ut perspiciatis unde omnis iste natus ut perspiciatis unde omnis iste."
+              &quot;Sed ut perspiciatis unde omnis iste natus ut perspiciatis unde omnis iste.&quot;
               </p>
               <div className="flex items-center space-x-4">
                 <img
@@ -51,7 +51,7 @@ export default function AutoDetailerSection() {
             {/* Testimonial 2 */}
             <div className="bg-gray-800 p-6 rounded-lg">
               <p className="text-lg text-white mb-4">
-                "Sed ut perspiciatis unde omnis iste natus ut perspiciatis unde omnis iste."
+              &quot;Sed ut perspiciatis unde omnis iste natus ut perspiciatis unde omnis iste.&quot;
               </p>
               <div className="flex items-center space-x-4">
                 <img

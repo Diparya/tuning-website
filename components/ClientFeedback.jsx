@@ -4,9 +4,9 @@ export default function ClientFeedback() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center">
           {/* Feedback Section */}
           <div className="py-16 px-8 lg:py-24 lg:px-16 space-y-8">
-            <h2 className="text-3xl lg:text-6xl font-bold mb-6">Clients' feedback</h2>
+            <h2 className="text-3xl lg:text-6xl font-bold mb-6">Clients&apos; feedback</h2>
             <p className="lg:text-lg mb-4 text-gray-400">
-              "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Consectetur adipiscing elit."
+            &quot;Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Consectetur adipiscing elit.&quot;
             </p>
             <div className="flex items-center space-x-4">
               <img
