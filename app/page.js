@@ -8,6 +8,7 @@ import HeroSection from "@/components/HeroSection";
 import HeroSectionSecond from "@/components/HeroSectionSecond";
 import RecentNews from "@/components/RecentNews";
 import ServicesSection from "@/components/ServicesSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <HeroSection/>
       <AutomotiveGallery/>
       <AutoDetailerSection/>
+      <TestimonialsSection/>
       <HeroSectionSecond/>
       <RecentNews/>
       <ContactFormHome/>

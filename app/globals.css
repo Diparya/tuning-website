@@ -35,3 +35,35 @@ body {
 .hide-scroll-bar::-webkit-scrollbar {
   display: none;  /* Safari and Chrome */
 }
+
+.transition-all {
+  transition: all 1s ease;
+}
+
+.transition-transform {
+  transition: transform 10s ease-out;
+}
+
+.scale-100 {
+  transform: scale(1);
+}
+
+.scale-110 {
+  transform: scale(1.1);
+}
+
+.translate-y-full {
+  transform: translateY(100%);
+}
+
+.translate-y-0 {
+  transform: translateY(0);
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 100;
+}

@@ -1,0 +1,47 @@
+/* Animation for each logo to appear one by one */
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Start slightly below */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* End at normal position */
+    }
+  }
+  
+  .animate-logo {
+    animation: fade-in 0.8s ease-in-out forwards; /* Apply animation */
+  }
+  
+  .delay-100 {
+    animation-delay: 0.1s;
+  }
+  
+  .delay-200 {
+    animation-delay: 0.2s;
+  }
+  
+  .delay-300 {
+    animation-delay: 0.3s;
+  }
+  
+  .delay-400 {
+    animation-delay: 0.4s;
+  }
+  
+  .delay-500 {
+    animation-delay: 0.5s;
+  }
+  
+  .hidden-logo {
+    opacity: 0; /* Completely hidden at the beginning */
+    visibility: hidden; /* Prevent interaction and rendering until animation triggers */
+  }
+  
+  .visible-logo {
+    opacity: 1;
+    visibility: visible; /* Set to visible once animation starts */
+  }
+  
+  

@@ -1,0 +1,14 @@
+/* Initially hidden content with translateY */
+.hidden-content {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  /* Visible content, moves to its natural position */
+  .visible-content {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
